@@ -1,2 +1,3 @@
 # Site-institucional-Moda
- Site institucional meramente ilustrativo
+ Site institucional meramente exemplificativo.
+ 
