@@ -1,0 +1,239 @@
+#body {
+    font-size: 1rem;
+    font-family: fantasy;
+    font-size: calc(60% + 0.5vmin);
+    background-color: rgb(15, 15, 0);
+    color: white;
+}
+/* Nav --------------------------------------------------------------------------------------------------------*/
+nav {
+    background-color: rgba(0, 0, 0, 0.911);
+    height: 2.5rem;
+}
+
+.nav-link.nav-link.nav-link {
+    color: rgb(252, 252, 252);
+}
+
+.nav-link.nav-link.nav-link.nav-link.nav-link:hover {
+    color: rgb(105, 104, 3);
+}
+
+.active.active.active.active {
+    color: rgb(105, 104, 3);
+}
+
+.nav-icon.nav-icon.nav-icon {
+    top: 5px;
+    left: 3em;
+    z-index: 1;
+}
+
+.nav-icon img {
+    float: left;
+}
+
+.nav-icon p {
+    float: left;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+
+/* Banner --------------------------------------------------------------------------------------------------------*/
+.banner {
+    background-image: url(imagens/banner_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 40rem;
+}
+
+.text-align {
+    padding-top: 20rem;
+    font-size: 5em;
+    text-shadow: 1px 1px 5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* A marca --------------------------------------------------------------------------------------------------------*/
+.bg-cinza {
+    background-color: rgb(15, 15, 0);
+}
+
+.linha {
+    background-color: rgb(168, 166, 6);
+    height: 50px;
+    width: 3px;
+    float: right;
+    margin-right: 30px;
+}
+
+.color-marca {
+    color: rgb(168, 166, 6);
+}
+
+.button-marca {
+    border-radius: 5px;
+    border: 2px solid rgb(105, 104, 3);
+    background-color: rgb(15, 15, 0);
+    color: rgb(105, 104, 3);
+}
+
+.button-marca:hover {
+    border-color: rgb(168, 166, 6);
+    color: rgb(168, 166, 6);
+    cursor: pointer;
+}
+/* Collection --------------------------------------------------------------------------------------------------------*/
+.position-absolute {
+    top: 0%;
+    left: 0%;
+}
+
+.text-collection.text-collection.text-collection {
+    width: 60%;
+    text-align: center;
+    top: 6rem;
+    left: 20%;
+    cursor: pointer;
+    color: rgb(206, 213, 219);
+    text-shadow: 1px 1px 3px black;
+    font-size: 1em;
+}
+
+.text-collection.text-collection.text-collection.text-collection:hover {
+    color: white;
+}
+
+.text-collection input {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(206, 213, 219);
+    font-size: 0.9em;
+    margin-top: 10%;
+    border: 1px solid;
+    border-color: rgb(206, 213, 219);
+    padding: 5px;
+}
+
+.text-collection input:hover {
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+/* Contatos --------------------------------------------------------------------------------------------------------*/
+.img-contatos {
+    border: 5px solid rgb(19, 19, 18);
+    box-shadow: 2px 1px 1px black;
+}
+
+.titulo {
+    font-size: 3.2em;
+}
+
+.arrobas {
+    font-size: 0.9em;
+}
+
+.contato-capa {
+    background-image: url(imagens/modelo_2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0px 70px 200px black;
+}
+
+.form-control.form-control.form-control  {
+    background-color: rgba(240, 248, 255, 0);
+    border: 2px solid rgb(105, 104, 3);
+    color: rgb(168, 166, 6);
+    text-shadow: 1px 1px 1px black;
+    height: 2rem;
+}
+
+.form-control.form-control.form-control::placeholder {
+    color: rgb(168, 166, 6);
+}
+
+.form-control.form-control.form-control:focus {
+    border: 3px solid rgb(168, 166, 6);
+    box-shadow: none;
+}
+
+.form-control.form-control.form-control:hover {
+    border: 2px solid rgb(216, 213, 13);
+    color: rgb(216, 213, 13);
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 2px black;
+}
+
+.form-group.form-group.form-group.form-group {
+    padding: 0;
+    margin: 0;
+}
+
+/* Footer --------------------------------------------------------------------------------------------------------*/
+.footer {
+    background-image: url(imagens/footer4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-box-shadow: inset 0px 0px 40rem 17px rgba(0,0,0); 
+    box-shadow: inset 0px 0px 40rem 17px rgba(0,0,0);
+    overflow: visible;
+}
+
+.fundo-transparente {
+    background-color: rgba(0, 0, 0, 0.425);
+    height: auto;
+}
+
+.footer p {
+    color: rgb(212, 212, 212);
+}
+
+.form input {
+    font-size: 1em;
+	background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 0.2rem; 
+    color: rgb(202, 202, 202);  
+    padding: 10px 0;
+    text-indent: 20px;
+    border: 2px solid rgb(15, 15, 0);
+}
+
+.form input:last-child{
+    margin-bottom: 0;
+}
+
+.form input::placeholder, .form textarea::placeholder {
+     color: rgb(212, 212, 212);
+}
+
+.form textarea {
+    font-size: 1em;
+	background-color: rgba(0, 0, 0, 0);
+    padding: 10px 0;
+    text-indent: 20px;
+    border: 2px solid rgb(15, 15, 0);
+}
+
+.form input:hover, .form textarea:hover {
+	background-color: rgba(0, 0, 0, 0.541);
+}
+
+.form input:focus, .form textarea:focus {
+    box-shadow: none;
+	border: 2px solid black;
+    color: rgb(212, 212, 212);
+}
+
+em {
+    color: rgb(168, 166, 6);
+    text-shadow: 1px 1px 2px black;
+}
+
+.form p {
+    text-shadow: 1px 1px 2px black;
+}
