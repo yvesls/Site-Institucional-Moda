@@ -1,9 +1,14 @@
-#body {
+*{
+    scroll-behavior: smooth;
+}
+
+body {
     font-size: 1rem;
     font-family: fantasy;
     font-size: calc(60% + 0.5vmin);
     background-color: rgb(15, 15, 0);
     color: white;
+    
 }
 /* Nav --------------------------------------------------------------------------------------------------------*/
 nav {
@@ -46,7 +51,7 @@ nav {
     background-image: url(imagens/banner_2.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 40rem;
+    height: 100vh;
 }
 
 .text-align {
@@ -148,7 +153,6 @@ nav {
     border: 2px solid rgb(105, 104, 3);
     color: rgb(168, 166, 6);
     text-shadow: 1px 1px 1px black;
-    height: 2rem;
 }
 
 .form-control.form-control.form-control::placeholder {
@@ -181,12 +185,12 @@ nav {
     background-size: 100%;
     -webkit-box-shadow: inset 0px 0px 40rem 17px rgba(0,0,0); 
     box-shadow: inset 0px 0px 40rem 17px rgba(0,0,0);
-    overflow: visible;
 }
 
 .fundo-transparente {
-    background-color: rgba(0, 0, 0, 0.425);
+    background-color: rgba(0, 0, 0, 0.295);
     height: auto;
+    margin-bottom: -10vh;
 }
 
 .footer p {

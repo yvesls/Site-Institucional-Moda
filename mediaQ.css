@@ -1,8 +1,7 @@
 /* xl */
 @media (max-width: 1399.98px){
     .font-xl-marca{font-size: 0.8em;}
-    .contatos-lg-inputs.contatos-lg-inputs.contatos-lg-inputs input::placeholder {font-size: 1em;}
-    .contatos-lg-inputs.contatos-lg-inputs.contatos-lg-inputs input:last-child {font-size: 1.3em; padding-bottom: 5px;}
+    
 }
 /* lg */
 @media (max-width: 1199.98px){
@@ -11,8 +10,6 @@
     .text-lg-collection input{font-size: 0.8em; padding: 5px;}
     .text-lg-collection h1 {font-size: 1.5em;}
     .text-lg-collection h5 {font-size: 0.9em;}
-    .contatos-lg-inputs.contatos-lg-inputs.contatos-lg-inputs input::placeholder {font-size: 1em;}
-    .contatos-lg-inputs.contatos-lg-inputs.contatos-lg-inputs input:last-child {font-size: 1.3em;}
 }
 /* md */
 @media (max-width: 991.98px){
@@ -30,8 +27,6 @@
     .form-md textarea {font-size: 0.6em; padding: 1px 0;}
     .cop-md{font-size: 0.5em;}
     .p-md {font-size: 0.6em;}
-    .contatos-inputs.contatos-inputs.contatos-inputs input:last-child {font-size: 0.5em;}
-    .contatos-inputs.contatos-inputs.contatos-inputs input::placeholder {font-size: 0.5em;}
 }  
 /* sm */
 @media (max-width: 767.98px){
@@ -49,13 +44,9 @@
     .text-sm-collection input{font-size: 0.3em; margin-top: 3px;}
     .text-sm-collection h1 {font-size: 1.1em;}
     .text-sm-collection h5 {font-size: 0.5em; margin-bottom: 1px;}
-    .contatos-inputs.contatos-inputs.contatos-inputs input:last-child {font-size: 0.5em; padding: 0px;}
-    .contatos-inputs.contatos-inputs.contatos-inputs input::placeholder {font-size: 0.5em;}
-
+    .form-control-sm.form-control-sm.form-control-sm.form-control-sm{height: 1.2em;}
 } 
 /* xs */
 @media (max-width: 575.98px){
     .font-xs-marca{font-size: 0.2em;}
-    .contatos-inputs.contatos-inputs.contatos-inputs input:last-child {font-size: 0.5em;padding: 0px;}
-    .contatos-inputs.contatos-inputs.contatos-inputs input::placeholder {font-size: 0.5em;}
 } 
