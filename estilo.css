@@ -21,11 +21,11 @@ nav {
 }
 
 .nav-link.nav-link.nav-link.nav-link.nav-link:hover {
-    color: rgb(105, 104, 3);
+    color:  rgb(168, 166, 6);
 }
 
 .active.active.active.active {
-    color: rgb(105, 104, 3);
+    color:  rgb(168, 166, 6);
 }
 
 .nav-icon.nav-icon.nav-icon {
@@ -80,14 +80,22 @@ nav {
 
 .button-marca {
     border-radius: 5px;
-    border: 2px solid rgb(105, 104, 3);
+    border: 2px solid  rgb(168, 166, 6);
     background-color: rgb(15, 15, 0);
-    color: rgb(105, 104, 3);
+    color:  rgb(168, 166, 6);
+    padding: 7px;
+    margin-top: 20px;
+}
+
+.text-marca.text-marca {
+    font-size: 1.15em;
+    color: rgb(206, 213, 219);
+    letter-spacing: 1px;
 }
 
 .button-marca:hover {
-    border-color: rgb(168, 166, 6);
-    color: rgb(168, 166, 6);
+    border-color: rgb(221, 218, 8);
+    color: rgb(212, 209, 7);
     cursor: pointer;
 }
 /* Collection --------------------------------------------------------------------------------------------------------*/
@@ -99,12 +107,10 @@ nav {
 .text-collection.text-collection.text-collection {
     width: 60%;
     text-align: center;
-    top: 6rem;
-    left: 20%;
     cursor: pointer;
     color: rgb(206, 213, 219);
     text-shadow: 1px 1px 3px black;
-    font-size: 1em;
+    top: 35%;
 }
 
 .text-collection.text-collection.text-collection.text-collection:hover {
@@ -114,11 +120,10 @@ nav {
 .text-collection input {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(206, 213, 219);
-    font-size: 0.9em;
-    margin-top: 10%;
-    border: 1px solid;
+    margin-top: 5%;
+    border: 2px solid;
     border-color: rgb(206, 213, 219);
-    padding: 5px;
+    padding: 7px;
 }
 
 .text-collection input:hover {
@@ -149,9 +154,9 @@ nav {
 }
 
 .form-control.form-control.form-control  {
-    background-color: rgba(240, 248, 255, 0);
+    background-color: rgba(29, 30, 31, 0.452);
     border: 2px solid rgb(105, 104, 3);
-    color: rgb(168, 166, 6);
+    color: rgb(189, 186, 8);
     text-shadow: 1px 1px 1px black;
 }
 
@@ -194,7 +199,9 @@ nav {
 }
 
 .footer p {
-    color: rgb(212, 212, 212);
+    color: rgb(252, 247, 247);
+    text-shadow: 1px 1px black;
+    letter-spacing: 1px;
 }
 
 .form input {
@@ -212,7 +219,9 @@ nav {
 }
 
 .form input::placeholder, .form textarea::placeholder {
-     color: rgb(212, 212, 212);
+    color: rgb(253, 249, 249);
+    letter-spacing: 1px;
+    text-shadow: 1px 1px black;
 }
 
 .form textarea {
@@ -230,14 +239,19 @@ nav {
 .form input:focus, .form textarea:focus {
     box-shadow: none;
 	border: 2px solid black;
-    color: rgb(212, 212, 212);
+    color: rgb(235, 232, 232);
 }
 
 em {
-    color: rgb(168, 166, 6);
+    color: rgb(192, 189, 11);
     text-shadow: 1px 1px 2px black;
 }
 
 .form p {
     text-shadow: 1px 1px 2px black;
+}
+
+.input-footer-enviar {
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px black;
 }

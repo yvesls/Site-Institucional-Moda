@@ -1,7 +1,8 @@
 /* xl */
 @media (max-width: 1399.98px){
     .font-xl-marca{font-size: 0.8em;}
-    
+    .text-marca{float: right; width: 500px;}
+    .linha {float: right;}
 }
 /* lg */
 @media (max-width: 1199.98px){
@@ -10,6 +11,8 @@
     .text-lg-collection input{font-size: 0.8em; padding: 5px;}
     .text-lg-collection h1 {font-size: 1.5em;}
     .text-lg-collection h5 {font-size: 0.9em;}
+    .text-marca{float: left; width: 90%}
+    .linha {float: left;}
 }
 /* md */
 @media (max-width: 991.98px){
@@ -27,6 +30,7 @@
     .form-md textarea {font-size: 0.6em; padding: 1px 0;}
     .cop-md{font-size: 0.5em;}
     .p-md {font-size: 0.6em;}
+    .text-marca.text-marca.text-marca{font-size: 1em;}
 }  
 /* sm */
 @media (max-width: 767.98px){
